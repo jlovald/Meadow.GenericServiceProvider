@@ -29,5 +29,5 @@ jobs:
     - name: Publish Meadow.GenericServiceProvider
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
-          PROJECT_FILE_PATH: GenericServiceProvider/GenericServiceProvider.Core.csproj
+          PROJECT_FILE_PATH: src/Meadow.GenericServiceProvider/Meadow.GenericServiceProvider.Core.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
