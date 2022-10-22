@@ -26,8 +26,8 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
-    - name: Publish FluentEmail.Core
+    - name: Publish Meadow.GenericServiceProvider
       uses: brandedoutcast/publish-nuget@v2.5.2
       with:
-          PROJECT_FILE_PATH: src/GenericServiceProvider/GenericServiceProvider.Core.csproj
+          PROJECT_FILE_PATH: GenericServiceProvider/GenericServiceProvider.Core.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
