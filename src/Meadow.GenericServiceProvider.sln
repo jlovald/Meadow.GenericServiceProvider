@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{9A75
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleApp", "ExampleApp\ExampleApp.csproj", "{10E74ACA-2268-497A-BA66-540F08C8B64E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericServiceProvider", "Meadow.GenericServiceProvider\GenericServiceProvider.csproj", "{EAB1CE26-E3B8-4C07-93C7-4258B4F441B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meadow.GenericServiceProvider", "Meadow.GenericServiceProvider\Meadow.GenericServiceProvider.csproj", "{EAB1CE26-E3B8-4C07-93C7-4258B4F441B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

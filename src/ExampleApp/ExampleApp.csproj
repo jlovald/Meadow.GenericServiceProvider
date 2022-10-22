@@ -21,6 +21,6 @@
         <Folder Include="Settings\" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Meadow.GenericServiceProvider\GenericServiceProvider.csproj" />
+        <ProjectReference Include="..\Meadow.GenericServiceProvider\Meadow.GenericServiceProvider.csproj" />
     </ItemGroup>
 </Project>
