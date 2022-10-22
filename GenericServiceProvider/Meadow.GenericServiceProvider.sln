@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericServiceProvider", "GenericServiceProvider\GenericServiceProvider.csproj", "{E8904EDD-74CF-4913-8EF2-7C92F1DF3E6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{9A758B61-9747-4CB8-A0CB-C48554C357C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleApp", "ExampleApp\ExampleApp.csproj", "{10E74ACA-2268-497A-BA66-540F08C8B64E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8904EDD-74CF-4913-8EF2-7C92F1DF3E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8904EDD-74CF-4913-8EF2-7C92F1DF3E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8904EDD-74CF-4913-8EF2-7C92F1DF3E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8904EDD-74CF-4913-8EF2-7C92F1DF3E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E74ACA-2268-497A-BA66-540F08C8B64E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10E74ACA-2268-497A-BA66-540F08C8B64E} = {9A758B61-9747-4CB8-A0CB-C48554C357C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D983617-8B75-40A2-A9D6-3E5C30E6716E}
+	EndGlobalSection
+EndGlobal
